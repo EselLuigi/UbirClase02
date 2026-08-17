@@ -1,5 +1,6 @@
 package modelo;
 
-public class MetodoPago {
+public abstract class MetodoPago {
 
+    public abstract void procesarPago(float importe);
 }
